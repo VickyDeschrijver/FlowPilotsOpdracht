@@ -59,22 +59,5 @@ footer {
     article h3 {
       font-size: 15px;
       font-weight: bold; } }
-@media screen and (max-width: 840px) {
-  article {
-    width: 75%;
-    height: auto; }
-    article .respImg {
-      width: 75%; }
-    article div > p {
-      display: none; }
-    article h3 {
-      font-size: 15px;
-      font-weight: bold; }
-
-  aside {
-    position: relative;
-    top: auto;
-    right: auto;
-    float: none; } }
 
 /*# sourceMappingURL=style.css.map */
