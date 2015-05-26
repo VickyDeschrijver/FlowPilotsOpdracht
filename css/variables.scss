@@ -10,6 +10,12 @@ $bodyBackg: white;
 $firstColor: #14d3ff;
 $secondColor: #8cffd2;
 $footerBackg: darken($firstColor, 10%);
+$fontColorLight: white;
+$fontColorDark: black;
+
+// layout
+$line: 2px;
+$bigLine: 5px;
 
 // RESPONSIVENESS
 $mob_width:percentage(3/12);

@@ -47,8 +47,8 @@
     <!--header-->
     <header>
         <div class="topBlok">
-            <h1> Fun Facts </h1>
-            <h3> Blog </h3>
+            <h1> Blog Flow </h1>
+            <h3> News about some stuff </h3>
 
         </div>
 
@@ -71,24 +71,22 @@
         <div class="comments">
 
             <div id="disqus_thread"> </div>
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES * * */
-                var disqus_shortname = 'blogflow';
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
 
         </div>
 
 
 
     </section>
+
+
+    <!-- back to blog overview-->
+    <aside class="back">
+        <a class="btn btn-primary btn-xs knop" href="blogIndex.html" role="button" data-toggle="tooltip" data-placement="left" title="back to blog index"> <span class="glyphicon glyphicon-backward"></span> Back to index</a>
+    </aside>
+
+
 
     <!--categories-->
     <aside >
@@ -109,7 +107,7 @@
     <!--footer-->
     <footer >
         <!--menu links-->
-        <div class="container">
+        <div class="footerMenu">
             <ul>
                 <li><a href="#info">Information</a>
                 </li>
@@ -130,8 +128,23 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <!--Disquss-->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'blogflow';
 
-
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!--script-->
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 
 </body>
 </html>
