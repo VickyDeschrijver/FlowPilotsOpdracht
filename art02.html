@@ -55,46 +55,30 @@
     </header>
 
     <!--blog articles-->
-    <section class="container">
-
-        <article class="fullArticle" id="post02">
-            <h2> Nog leuker dan het gebeuren zelf: Amerikanen in de war door het Songfestival</h2>
-            <img class="respImg" src="img/03.jpeg"/>
-            <h5> <strong> Auteur </strong>auteur </h5>
-            <p>23 mei 2015 </p>
-            <div>
-                <p> Vanavond is het grote finale van het Eurovisiesongfestival, en hoewel elke Europeaan er 362 dagen per jaar niets over wil horen, gaan we 3 dagen per jaar zot. Zo zot dat het zélfs opvalt in Amerika. Waar er na 60 edities nog altijd mensen zijn die geen idéé hebben waarover het gaat.</p>
-                <p> <em>Bron: Google, Twitter </em></p>
-            </div>
-        </article>
+    <section class="container" title="02">
+        <!-- back to blog overview-->
+        <div class="back">
+            <a href="blogIndex.html" role="button" data-toggle="tooltip" data-placement="top" title="back to blog index"> <span class="glyphicon glyphicon-backward"></span> <span class="knopTekst"> Back to index </span></a>
+        </div>
+        <div class="artData"> </div>
 
         <div class="comments">
 
             <div id="disqus_thread"> </div>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-
         </div>
-
-
 
     </section>
 
-
-    <!-- back to blog overview-->
-    <aside class="back">
-        <a class="btn btn-primary btn-xs knop" href="blogIndex.html" role="button" data-toggle="tooltip" data-placement="left" title="back to blog index"> <span class="glyphicon glyphicon-backward"></span> Back to index</a>
-    </aside>
 
 
 
     <!--categories-->
     <aside >
         <h3> Recent Posts</h3>
-        <ul>
-            <li><a href="#" target="_self"> Zotste tv ooit! </a></li>
-            <li><a href="#" target="_self"> Microwave hacks </a></li>
-            <li><a href="#" target="_self"> Google toont tweets </a></li>
+        <ul id="recent">
+            <!--js fill-->
         </ul>
         <h3> Categories </h3>
         <ul>
@@ -127,10 +111,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<!--Main.js-->
+<script src="js/main.js"></script>
+
 <!--Disquss-->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'blogflow';
+    var disqus_identifier = 'art02';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -139,12 +128,15 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
+
 <!--script-->
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
 </script>
+
+
 
 </body>
 </html>

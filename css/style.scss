@@ -100,6 +100,7 @@ article {
   margin-top: 20px;
   padding:0 10%;
   border-bottom: $line solid darken($secondColor, 20%);
+  margin-left: 10%;
 }
 
 // BUTTONS
@@ -107,9 +108,7 @@ article {
   background-color: transparent;
   display: inline-block;
   float: left;
-  border-bottom: none;
-  border-top: none;
-  margin: 20px 0 0 -25px;
+  margin: 25px 0 0 -25px;
 
   a {
     background-color: $secondColor;
@@ -147,6 +146,11 @@ a {
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+#recent {
+  li {
+    border-bottom: 1px dotted $secondColor;
+  }
 }
 
 // FOOTER
