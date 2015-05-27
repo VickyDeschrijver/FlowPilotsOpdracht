@@ -10,7 +10,7 @@ body {
   font-size: 18px; }
 
 em {
-  font-size: 14px; }
+  font-size: 85%; }
 
 .wrapper {
   min-height: 100%;
@@ -79,7 +79,7 @@ article {
   margin-left: 10%; }
 
 .back {
-  background-color: transparent;
+  background-color: transparant;
   display: inline-block;
   float: left;
   margin: 25px 0 0 -25px; }
